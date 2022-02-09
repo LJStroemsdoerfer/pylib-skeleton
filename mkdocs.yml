@@ -1,0 +1,43 @@
+site_name: pylib-skeleton
+site_description: A template repo for Python Libraries
+site_url: https://github.com/LJStroemsdoerfer/pylib-skeleton.git
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: deep orange
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/logo_new.png
+  favicon: img/logo_new.png
+  language: en
+repo_name: LJStroemsdoerfer/pylib-skeleton
+repo_url: https://github.com/LJStroemsdoerfer/pylib-skeleton
+edit_uri: ''
+plugins:
+- search
+nav:
+- Home: index.md
+- Getting Started:
+  - content/install.md
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: true
+- markdown_include.include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_div_format ''
+- pymdownx.tabbed
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/LJStroemsdoerfer/pylib-skeleton
