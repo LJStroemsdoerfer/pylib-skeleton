@@ -17,10 +17,11 @@ repo_url: https://github.com/LJStroemsdoerfer/pylib-skeleton
 edit_uri: ''
 plugins:
 - search
+- mkdocstrings
 nav:
 - Home: index.md
-- Getting Started:
-  - content/install.md
+- Python libraries:
+  - content/myclass.md
 markdown_extensions:
 - toc:
     permalink: true
