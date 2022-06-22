@@ -4,9 +4,9 @@ site_url: https://github.com/LJStroemsdoerfer/pylib-skeleton.git
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: deep purple
-    accent: deep orange
+    scheme: default
+    primary: white
+    accent: deep purple
   icon:
     repo: fontawesome/brands/github-alt
   logo: img/logo_new.png
